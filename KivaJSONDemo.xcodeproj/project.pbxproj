@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		715F8F7F16987933001560EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715F8F7E16987933001560EC /* UIKit.framework */; };
+		715F8F8116987933001560EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715F8F8016987933001560EC /* Foundation.framework */; };
+		715F8F8316987933001560EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715F8F8216987933001560EC /* CoreGraphics.framework */; };
+		715F8F8916987933001560EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715F8F8716987933001560EC /* InfoPlist.strings */; };
+		715F8F8B16987933001560EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F8F8A16987933001560EC /* main.m */; };
+		715F8F8F16987933001560EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F8F8E16987933001560EC /* AppDelegate.m */; };
+		715F8F9116987933001560EC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 715F8F9016987933001560EC /* Default.png */; };
+		715F8F9316987933001560EC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 715F8F9216987933001560EC /* Default@2x.png */; };
+		715F8F9516987933001560EC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 715F8F9416987933001560EC /* Default-568h@2x.png */; };
+		715F8F9816987933001560EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F8F9716987933001560EC /* ViewController.m */; };
+		715F8F9B16987933001560EC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715F8F9916987933001560EC /* ViewController.xib */; };
+		715F8FA316987933001560EC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715F8FA216987933001560EC /* SenTestingKit.framework */; };
+		715F8FA416987933001560EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715F8F7E16987933001560EC /* UIKit.framework */; };
+		715F8FA516987933001560EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715F8F8016987933001560EC /* Foundation.framework */; };
+		715F8FAD16987933001560EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715F8FAB16987933001560EC /* InfoPlist.strings */; };
+		715F8FB016987933001560EC /* KivaJSONDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F8FAF16987933001560EC /* KivaJSONDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		715F8FA616987933001560EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715F8F7116987932001560EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715F8F7916987933001560EC;
+			remoteInfo = KivaJSONDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		715F8F7A16987933001560EC /* KivaJSONDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KivaJSONDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		715F8F7E16987933001560EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		715F8F8016987933001560EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		715F8F8216987933001560EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		715F8F8616987933001560EC /* KivaJSONDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KivaJSONDemo-Info.plist"; sourceTree = "<group>"; };
+		715F8F8816987933001560EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		715F8F8A16987933001560EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		715F8F8C16987933001560EC /* KivaJSONDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KivaJSONDemo-Prefix.pch"; sourceTree = "<group>"; };
+		715F8F8D16987933001560EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		715F8F8E16987933001560EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		715F8F9016987933001560EC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		715F8F9216987933001560EC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		715F8F9416987933001560EC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		715F8F9616987933001560EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		715F8F9716987933001560EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		715F8F9A16987933001560EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		715F8FA116987933001560EC /* KivaJSONDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KivaJSONDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		715F8FA216987933001560EC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		715F8FAA16987933001560EC /* KivaJSONDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KivaJSONDemoTests-Info.plist"; sourceTree = "<group>"; };
+		715F8FAC16987933001560EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		715F8FAE16987933001560EC /* KivaJSONDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KivaJSONDemoTests.h; sourceTree = "<group>"; };
+		715F8FAF16987933001560EC /* KivaJSONDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KivaJSONDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715F8F7716987933001560EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715F8F7F16987933001560EC /* UIKit.framework in Frameworks */,
+				715F8F8116987933001560EC /* Foundation.framework in Frameworks */,
+				715F8F8316987933001560EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715F8F9D16987933001560EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715F8FA316987933001560EC /* SenTestingKit.framework in Frameworks */,
+				715F8FA416987933001560EC /* UIKit.framework in Frameworks */,
+				715F8FA516987933001560EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		715F8F6F16987932001560EC = {
+			isa = PBXGroup;
+			children = (
+				715F8F8416987933001560EC /* KivaJSONDemo */,
+				715F8FA816987933001560EC /* KivaJSONDemoTests */,
+				715F8F7D16987933001560EC /* Frameworks */,
+				715F8F7B16987933001560EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		715F8F7B16987933001560EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715F8F7A16987933001560EC /* KivaJSONDemo.app */,
+				715F8FA116987933001560EC /* KivaJSONDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		715F8F7D16987933001560EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				715F8F7E16987933001560EC /* UIKit.framework */,
+				715F8F8016987933001560EC /* Foundation.framework */,
+				715F8F8216987933001560EC /* CoreGraphics.framework */,
+				715F8FA216987933001560EC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		715F8F8416987933001560EC /* KivaJSONDemo */ = {
+			isa = PBXGroup;
+			children = (
+				715F8F8D16987933001560EC /* AppDelegate.h */,
+				715F8F8E16987933001560EC /* AppDelegate.m */,
+				715F8F9616987933001560EC /* ViewController.h */,
+				715F8F9716987933001560EC /* ViewController.m */,
+				715F8F9916987933001560EC /* ViewController.xib */,
+				715F8F8516987933001560EC /* Supporting Files */,
+			);
+			path = KivaJSONDemo;
+			sourceTree = "<group>";
+		};
+		715F8F8516987933001560EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				715F8F8616987933001560EC /* KivaJSONDemo-Info.plist */,
+				715F8F8716987933001560EC /* InfoPlist.strings */,
+				715F8F8A16987933001560EC /* main.m */,
+				715F8F8C16987933001560EC /* KivaJSONDemo-Prefix.pch */,
+				715F8F9016987933001560EC /* Default.png */,
+				715F8F9216987933001560EC /* Default@2x.png */,
+				715F8F9416987933001560EC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		715F8FA816987933001560EC /* KivaJSONDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				715F8FAE16987933001560EC /* KivaJSONDemoTests.h */,
+				715F8FAF16987933001560EC /* KivaJSONDemoTests.m */,
+				715F8FA916987933001560EC /* Supporting Files */,
+			);
+			path = KivaJSONDemoTests;
+			sourceTree = "<group>";
+		};
+		715F8FA916987933001560EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				715F8FAA16987933001560EC /* KivaJSONDemoTests-Info.plist */,
+				715F8FAB16987933001560EC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		715F8F7916987933001560EC /* KivaJSONDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715F8FB316987933001560EC /* Build configuration list for PBXNativeTarget "KivaJSONDemo" */;
+			buildPhases = (
+				715F8F7616987933001560EC /* Sources */,
+				715F8F7716987933001560EC /* Frameworks */,
+				715F8F7816987933001560EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KivaJSONDemo;
+			productName = KivaJSONDemo;
+			productReference = 715F8F7A16987933001560EC /* KivaJSONDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		715F8FA016987933001560EC /* KivaJSONDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715F8FB616987933001560EC /* Build configuration list for PBXNativeTarget "KivaJSONDemoTests" */;
+			buildPhases = (
+				715F8F9C16987933001560EC /* Sources */,
+				715F8F9D16987933001560EC /* Frameworks */,
+				715F8F9E16987933001560EC /* Resources */,
+				715F8F9F16987933001560EC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715F8FA716987933001560EC /* PBXTargetDependency */,
+			);
+			name = KivaJSONDemoTests;
+			productName = KivaJSONDemoTests;
+			productReference = 715F8FA116987933001560EC /* KivaJSONDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715F8F7116987932001560EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = tutorial;
+			};
+			buildConfigurationList = 715F8F7416987932001560EC /* Build configuration list for PBXProject "KivaJSONDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 715F8F6F16987932001560EC;
+			productRefGroup = 715F8F7B16987933001560EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				715F8F7916987933001560EC /* KivaJSONDemo */,
+				715F8FA016987933001560EC /* KivaJSONDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		715F8F7816987933001560EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715F8F8916987933001560EC /* InfoPlist.strings in Resources */,
+				715F8F9116987933001560EC /* Default.png in Resources */,
+				715F8F9316987933001560EC /* Default@2x.png in Resources */,
+				715F8F9516987933001560EC /* Default-568h@2x.png in Resources */,
+				715F8F9B16987933001560EC /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715F8F9E16987933001560EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715F8FAD16987933001560EC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		715F8F9F16987933001560EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		715F8F7616987933001560EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715F8F8B16987933001560EC /* main.m in Sources */,
+				715F8F8F16987933001560EC /* AppDelegate.m in Sources */,
+				715F8F9816987933001560EC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715F8F9C16987933001560EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715F8FB016987933001560EC /* KivaJSONDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		715F8FA716987933001560EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 715F8F7916987933001560EC /* KivaJSONDemo */;
+			targetProxy = 715F8FA616987933001560EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		715F8F8716987933001560EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715F8F8816987933001560EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		715F8F9916987933001560EC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715F8F9A16987933001560EC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		715F8FAB16987933001560EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715F8FAC16987933001560EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		715F8FB116987933001560EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		715F8FB216987933001560EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715F8FB416987933001560EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KivaJSONDemo/KivaJSONDemo-Prefix.pch";
+				INFOPLIST_FILE = "KivaJSONDemo/KivaJSONDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		715F8FB516987933001560EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KivaJSONDemo/KivaJSONDemo-Prefix.pch";
+				INFOPLIST_FILE = "KivaJSONDemo/KivaJSONDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		715F8FB716987933001560EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KivaJSONDemo.app/KivaJSONDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KivaJSONDemo/KivaJSONDemo-Prefix.pch";
+				INFOPLIST_FILE = "KivaJSONDemoTests/KivaJSONDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		715F8FB816987933001560EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KivaJSONDemo.app/KivaJSONDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KivaJSONDemo/KivaJSONDemo-Prefix.pch";
+				INFOPLIST_FILE = "KivaJSONDemoTests/KivaJSONDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		715F8F7416987932001560EC /* Build configuration list for PBXProject "KivaJSONDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715F8FB116987933001560EC /* Debug */,
+				715F8FB216987933001560EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715F8FB316987933001560EC /* Build configuration list for PBXNativeTarget "KivaJSONDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715F8FB416987933001560EC /* Debug */,
+				715F8FB516987933001560EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		715F8FB616987933001560EC /* Build configuration list for PBXNativeTarget "KivaJSONDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715F8FB716987933001560EC /* Debug */,
+				715F8FB816987933001560EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 715F8F7116987932001560EC /* Project object */;
+}
